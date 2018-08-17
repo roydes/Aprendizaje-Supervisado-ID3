@@ -1,0 +1,22 @@
+digraph {
+	"Presion arterial"
+	"Árbol de Desición ID3":" Por Roides Javier Cruz Lara" -> "Presion arterial" [label=""]
+	"Otras alergia"
+	"Presion arterial" -> "Otras alergia" [label=Alta]
+	13966603 [label=Si]
+	"Otras alergia" -> 13966603 [label=No]
+	"Alergia a antibioticos"
+	"Otras alergia" -> "Alergia a antibioticos" [label=Si]
+	2910423 [label=No]
+	"Alergia a antibioticos" -> 2910423 [label=Si]
+	6407890 [label=Si]
+	"Alergia a antibioticos" -> 6407890 [label=No]
+	3290663 [label=Si]
+	"Presion arterial" -> 3290663 [label=Baja]
+	"Indice de colesterol"
+	"Presion arterial" -> "Indice de colesterol" [label=Media]
+	9216703 [label=No]
+	"Indice de colesterol" -> 9216703 [label=Alto]
+	13688900 [label=Si]
+	"Indice de colesterol" -> 13688900 [label=Bajo]
+}
